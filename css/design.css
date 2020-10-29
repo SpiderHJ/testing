@@ -1,0 +1,92 @@
+body{
+  background-image:url(Bg1.png);
+  background-repeat: repeat;
+  background-size: contain;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+/* index page */
+.icon{
+width: 1113px;
+height: 1500px;
+}
+.icon_container {
+  margin-top:500px;
+}
+
+/* Welcome Page first section */
+.welcome_first_half{
+background-image:url("Bg 2.11.png");
+background-size: 100% 100%;
+padding-top:30px;
+padding-bottom:100px;
+}
+
+.click{
+  padding:20px;
+}
+
+.hurry{
+  text-align: left;
+  padding:20px;
+  line-height: 0.5;
+  font-weight: bold;
+}
+
+/* welcome Page second section */
+.welcome_second_half{
+  padding: 20px;
+  line-height: 4.3;
+}
+
+button{
+  width:80%;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  border-radius: 9px !important;
+}
+.first_button{
+  background-color: orange;
+  color: black;
+  padding:0;
+  line-height: 0;
+
+}
+.first_button  h3 {
+  color: white;
+  font-weight: bold;
+}
+.first_button p {
+  font-size: 0.6rem;
+margin-bottom: 0.5rem;
+}
+.third_button{
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+.second_button{
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+  font-size: 1.5rem;
+}
+.third_button span {
+  font-weight: bold;
+  color: orange;
+}
+
+/* login_first_section */
+.login_first_section{
+  background-image: url("Bg 2.21.png");
+  background-size: 100% 100%;
+  padding: 100px;
+}
+
+/* login_second_section */
+.login_second_section{
+  line-height: 4.3rem;
+  padding:50px;
+}
